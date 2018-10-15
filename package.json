@@ -1,0 +1,32 @@
+{
+  "name": "deep-flatten",
+  "version": "0.0.1",
+  "description": "Accepts a nested array and returns a flattened copy",
+  "main": "index.js",
+  "scripts": {
+    "test": "nyc --reporter=html mocha './src/**/*.test.js' --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amu-utils/deep-flatten.git"
+  },
+  "keywords": [
+    "Javascript",
+    "Array",
+    "js",
+    "flat",
+    "flatten",
+    "nested"
+  ],
+  "author": "amindunited",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/amu-utils/deep-flatten/issues"
+  },
+  "homepage": "https://github.com/amu-utils/deep-flatten#readme",
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^5.1.1",
+    "nyc": "^11.7.1"
+  }
+}

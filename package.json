@@ -1,6 +1,6 @@
 {
   "name": "@amindunited/deep-flatten",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Accepts a nested array and returns a flattened copy",
   "main": "index.js",
   "scripts": {
